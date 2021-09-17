@@ -1,0 +1,44 @@
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+.text-center {
+    border: 1px solid black;
+}
+.card-body{
+    background-color: rgba(0,0,0,.03);
+}
+.card-header,  .card-footer{
+    background-color: #309bad;
+}
+#btnRetry{
+    color:black;
+}
+.btn-info{
+    background-color: blueviolet;
+}
+.button{
+    width: 85%;
+    margin-bottom: 15px;
+}
+form {
+    padding-top: 10px;
+}
+#change{
+    display: none;
+}
+#changeStart {
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    .btn-group {
+        display: inline-block;
+     
+    }
+    .btn{
+        width: 100%;
+        border-radius: 0px;
+    }
+
+	}
